@@ -1,0 +1,61 @@
+// Mock Incident & ANPR Detections Dataset
+
+export const MOCK_INCIDENTS = [
+  {
+    id: "INC-9901",
+    type: "Hit and Run",
+    typeSimple: "Crash & Fleeing Car",
+    plateNumber: "MH-02-CB-4821",
+    vehicleType: "Black SUV",
+    speed: "92 km/h (Limit: 40 km/h)",
+    confidence: "98.4%",
+    detectedBy: "BUS-104 (Rear Cam)",
+    timestamp: "14 mins ago",
+    lat: 19.0860,
+    lng: 72.8630,
+    street: "St. Xavier Avenue Crossing",
+    status: "🚨 High Priority Police Alert",
+    statusSimple: "Alert Sent to Police Car nearby",
+    details: "Vehicle struck parked scooter at high speed and failed to stop. ANPR confirmed.",
+    detailsSimple: "Black SUV hit a scooter and drove away very fast without stopping.",
+    videoClipUrl: "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3"
+  },
+  {
+    id: "INC-9902",
+    type: "Rash Driving",
+    typeSimple: "Dangerous Reckless Driving",
+    plateNumber: "KA-01-MJ-9912",
+    vehicleType: "Red Sedan",
+    speed: "84 km/h",
+    confidence: "96.1%",
+    detectedBy: "BUS-101 (Front Cam)",
+    timestamp: "45 mins ago",
+    lat: 19.0780,
+    lng: 72.8800,
+    street: "MG Road Main Junction",
+    status: "Logged for Traffic Fine",
+    statusSimple: "Speed Challan Ticket Created",
+    details: "Swerving across 3 lanes without signaling and cutting off public bus.",
+    detailsSimple: "Red car driving dangerously and swerving close to the bus.",
+    videoClipUrl: "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3"
+  },
+  {
+    id: "INC-9903",
+    type: "Child Pedestrian Hazard",
+    typeSimple: "School Child Crossing Danger",
+    plateNumber: "N/A",
+    vehicleType: "Pedestrian Group (4 children)",
+    speed: "0 km/h",
+    confidence: "97.5%",
+    detectedBy: "BUS-104 (Front Cam)",
+    timestamp: "28 mins ago",
+    lat: 19.0852,
+    lng: 72.8622,
+    street: "St. Xavier School Crossing",
+    status: "Bus Auto-Braking Warning Triggered",
+    statusSimple: "Bus Slowed Down Automatically",
+    details: "School children stepped onto road without active traffic signal. Collision averted.",
+    detailsSimple: "Kids walked onto the street. Bus detected them on camera and slowed down safely.",
+    videoClipUrl: "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3"
+  }
+];
